@@ -12,16 +12,16 @@ spec:
       labels:
         app: ticketing-auth
     spec:
-      containers:
+      containers: 
         - name: ticketing-auth
           image: meylisday/ticketing-auth
 ---
 apiVersion: v1
 kind: Service
-metadata: 
+metadata:
   name: ticketing-auth-srv
 spec:
-  selector:
+  selector: 
     app: ticketing-auth
   ports:
     - name: ticketing-auth
