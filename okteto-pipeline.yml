@@ -1,2 +1,2 @@
 deploy:
-  - okteto build -t okteto.dev/auth:${OKTETO_GIT_COMMIT} auth
+  - okteto build -t meylisday/ticketing-auth:${OKTETO_GIT_COMMIT} ticketing-auth
