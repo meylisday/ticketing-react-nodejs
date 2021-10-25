@@ -1,7 +1,0 @@
-name: auth
-image: okteto.dev/ticketing-auth
-command: npm run
-sync:
-  - .:/src
-persistentVolume:
-  enabled: false

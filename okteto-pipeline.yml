@@ -1,4 +1,0 @@
-deploy:
-  - okteto build -t okteto.dev/ticketing-auth:${OKTETO_GIT_COMMIT} auth
-devs:
-  - auth/okteto.yml
