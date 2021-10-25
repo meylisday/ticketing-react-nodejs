@@ -1,0 +1,11 @@
+services:
+  fastapi:
+    public: true
+    image: okteto.dev/ticketing-auth
+    build: ./auth
+    replicas: 1
+    ports:
+      - 3000
+    resources:
+      cpu: 100m
+      memory: 128Mi
